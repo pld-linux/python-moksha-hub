@@ -57,7 +57,7 @@ Hub components for Moksha.
 %{__sed} -i 's/pyzmq<=2.2.0.1/pyzmq/' setup.py
 
 %build
-%{__python} setup.py build
+%py_build
 
 %if %{with tests}
 %{__python} setup.py test
@@ -65,10 +65,7 @@ Hub components for Moksha.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-%{__python} setup.py install \
-	--skip-build \
-	--optimize=2 \
-	--root=$RPM_BUILD_ROOT
+%py_install
 
 %{__rm} -r $RPM_BUILD_ROOT%{py_sitescriptdir}/moksha/hub/tests
 
