@@ -6,7 +6,7 @@
 Summary:	Hub components for Moksha
 Name:		python-moksha-hub
 Version:	1.4.4
-Release:	1
+Release:	2
 License:	Apache v2.0
 Group:		Development/Libraries
 Source0:	http://pypi.python.org/packages/source/m/%{module}/%{module}-%{version}.tar.gz
