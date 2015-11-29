@@ -12,6 +12,7 @@ Group:		Development/Libraries
 Source0:	http://pypi.python.org/packages/source/m/%{module}/%{module}-%{version}.tar.gz
 # Source0-md5:	97ec72d1fb223de0d883715185b63e06
 URL:		http://pypi.python.org/pypi/moksha.hub
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	python
 BuildRequires:	python-modules
 BuildRequires:	python-setuptools
