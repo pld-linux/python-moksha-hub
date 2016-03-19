@@ -5,12 +5,12 @@
 %define	module moksha.hub
 Summary:	Hub components for Moksha
 Name:		python-moksha-hub
-Version:	1.4.4
-Release:	2
+Version:	1.4.6
+Release:	1
 License:	Apache v2.0
 Group:		Development/Libraries
 Source0:	http://pypi.python.org/packages/source/m/%{module}/%{module}-%{version}.tar.gz
-# Source0-md5:	97ec72d1fb223de0d883715185b63e06
+# Source0-md5:	0ee9d3c3f0560bf392e4dcda1ccac9f9
 URL:		http://pypi.python.org/pypi/moksha.hub
 BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	python
